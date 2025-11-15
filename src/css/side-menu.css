@@ -1,0 +1,54 @@
+/* Hamburger bars */
+.menu-button .bar {
+  width: 30px;
+  height: 4px;
+  margin: 5px 0;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* Animation for cross */
+.menu-button.cross .bar:nth-of-type(1) {
+  transform: translateY(20px) rotate(-60deg) scale(1.2);
+}
+.menu-button.cross .bar:nth-of-type(2) {
+  opacity: 0;
+}
+.menu-button.cross .bar:nth-of-type(3) {
+  transform: translateY(-7px) rotate(60deg) scale(1.2);
+}
+
+/* Side menu styles */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -260px;
+  width: 240px;
+  height: 100%;
+  background-color: #000000;
+  color: white;
+  padding-top: 80px;
+  transition: left 0.3s ease;
+  z-index: 1300;
+  overflow-y: auto;
+}
+
+.side-menu.open {
+  left: 0;
+}
+
+.side-menu-item {
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.side-menu-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.menu-button {
+  position: relative;
+  z-index: 1301; /* higher than AppBar (1100) */
+}
