@@ -23,23 +23,9 @@ function Sliders() {
   const handleProjectNavigation = () => {
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    setActiveItem(link);
     navigate("/projects");
 
   }
-
-  function handleNavigation(link) {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    setActiveItem(link);
-
-    if (link === 'Home') navigate("/");
-    else if (link === 'Service') navigate("/services");
-    else if (link === 'Projects') navigate("/projects");
-    else if (link === 'Contact') navigate("/contact");
-
-    setMenuOpen(false);
-    setAboutDropdownOpen(false);
-  }  
 
   return (
     <div className="h-screen min-h-[500px] relative">
