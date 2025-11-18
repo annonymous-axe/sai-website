@@ -7,13 +7,6 @@ export const services = [
       detail2: "Every design is carefully customized to suit the project's functional requirements, site conditions, and construction methodology. By working closely with architects, developers, and contractors, we ensure the delivery of structurally sound, cost-effective, and long-lasting solutions delivered on time, with a strong emphasis on coordination and technical excellence. With a reputation for technical excellence, quality service, and a proactive mindset, Sai Consultants is committed to building resilient structures that stand the test of time. We help bring visionary designs to life through a foundation of engineering precision and professional integrity." 
     },
     { 
-      src: "images/services/value_engineering2.png", 
-      title: "VALUE ENGINEERING", 
-      heading: "Design with Purpose. Performance with Precision. Value at Every Step.", 
-      detail1: "Our Value engineering process identifies areas where cost efficiencies can be achieved without compromising on Function, Safety, or Aesthetics. Our approach goes beyond cost-cutting—it's about optimizing value by improving function, enhancing performance, and ensuring long-term durability while minimizing unnecessary expenses.", 
-      detail2: "We systematically evaluate materials, Structural systems, and construction methods to deliver solutions that balance safety, performance, and cost-effectiveness. By re-evaluating design elements and construction methods, we help clients optimize their investments and improve overall project value."
-    },
-    { 
       src: "images/services/Repair.jpg", 
       title: "REPAIR & REHABILITATION", 
       heading: "Bringing Structures Back to Life", 
@@ -26,6 +19,13 @@ export const services = [
       heading: "Strengthening the Past for the Future", 
       detail1: "We offer expert Retrofitting solutions and Structural conservation services for both modern and heritage structures. Retrofitting is vital for enhancing the structural performance of existing buildings to meet current safety standards—especially in areas prone to earthquakes, wind loads, or structural deterioration over time. Our retrofit designs are customized to improve load-carrying capacity, ductility, and stability without compromising the structure's usability or aesthetics.",
       detail2: "For Heritage Structures, our approach balances engineering integrity with cultural sensitivity. Our goal is to maintain the original character and materials of historic buildings while ensuring they meet today's safety and durability expectations. Whether it's upgrading aging infrastructure, restoring a heritage landmark, or strengthening a building for seismic resilience, we deliver precise, minimally invasive, and code-compliant retrofitting solutions. We ensure that what has stood the test of time can continue to do so—safely and sustainably."
+    },    
+    { 
+      src: "images/services/value_engineering2.png", 
+      title: "VALUE ENGINEERING", 
+      heading: "Design with Purpose. Performance with Precision. Value at Every Step.", 
+      detail1: "Our Value engineering process identifies areas where cost efficiencies can be achieved without compromising on Function, Safety, or Aesthetics. Our approach goes beyond cost-cutting—it's about optimizing value by improving function, enhancing performance, and ensuring long-term durability while minimizing unnecessary expenses.", 
+      detail2: "We systematically evaluate materials, Structural systems, and construction methods to deliver solutions that balance safety, performance, and cost-effectiveness. By re-evaluating design elements and construction methods, we help clients optimize their investments and improve overall project value."
     },
     { 
       src: "images/services/ndt_testing.png", 

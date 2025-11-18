@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { cn } from "../lib/utils";
-import saiLogo from '/Sai Consultants - Logo-cropped.svg';
+// import saiLogo from '/Sai Consultants - Logo-cropped.svg';
+import saiLogo from '/new_logo-cropped.svg';
 
 const navItems = ["Home", "About", "Projects", "Service", "Contact"];
 
@@ -73,8 +74,8 @@ const Header = () => {
                   "object-contain cursor-pointer transition-all duration-500 ease-out",
                   "group-hover:scale-105 group-hover:drop-shadow-lg",
                   scrolled 
-                    ? "h-12 sm:h-14 md:h-16" 
-                    : "h-14 sm:h-16 md:h-18 lg:h-20"
+                    ? "h-10 sm:h-12 md:h-14" 
+                    : "h-12 sm:h-14 md:h-16 lg:h-18"
                 )}
                 onClick={() => {
                   navigate("/");

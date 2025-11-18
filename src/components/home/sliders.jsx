@@ -58,7 +58,7 @@ function Sliders() {
 
                     {/* Main Heading - Text on image with shadow */}
                     <h1 className={cn(
-                      "text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl",
+                      "text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl",
                       "font-bold font-heading text-white mb-4 sm:mb-6",
                       "leading-tight drop-shadow-2xl"
                     )}
@@ -79,7 +79,8 @@ function Sliders() {
                     </p>
 
                     {/* CTA Button */}
-                    <button 
+                    <a
+                      href="/projects"
                       className={cn(
                         "group inline-flex items-center gap-2",
                         "px-6 sm:px-8 py-3 sm:py-3.5 rounded-lg",
@@ -93,7 +94,7 @@ function Sliders() {
                     >
                       <span>Explore Our Work</span>
                       <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>

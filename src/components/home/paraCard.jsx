@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { ChevronDown, ChevronUp, Shield, DollarSign, Zap, Target } from "lucide-react";
+import { ChevronDown, ChevronUp, Shield, IndianRupee, Zap, Target } from "lucide-react";
 import { cn } from "../../lib/utils";
 import PlanningImage from '/insights.jfif';
 
@@ -11,7 +11,7 @@ function ParagraphCard() {
 
   const features = [
     { label: "Safety", icon: Shield, color: "from-primary-500 to-primary-600" },
-    { label: "Economy", icon: DollarSign, color: "from-accent-500 to-accent-600" },
+    { label: "Economy", icon: IndianRupee, color: "from-accent-500 to-accent-600" },
     { label: "Durability", icon: Zap, color: "from-secondary-500 to-secondary-600" },
     { label: "Serviceability", icon: Target, color: "from-primary-600 to-accent-500" },
   ];
