@@ -6,8 +6,12 @@ import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import "swiper/css/effect-fade";
 import { cn } from "../../lib/utils";
 import { ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 function Sliders() {
+
+  const navigate = useNavigate();
+
   const slides = [
     { src: "images/projects/HOME/AHANA.jpg", text: "Designing the Future", quote: "Excellence in Structural Engineering" },
     { src: "images/projects/HOME/business_hub.jpg", text: "Strength Meets Design", quote: "A well-designed structure doesn't just stand — it performs, adapts, and endures." },
@@ -15,6 +19,27 @@ function Sliders() {
     { src: "images/projects/HOME/govind_dholakia.jpg", text: "Your vision, our artistry", quote: "Spaces filled with joy" },
     { src: "images/projects/HOME/banner.jpg", text: "Designing Tomorrow, Today", quote: "Designing dreams into reality" },
   ];
+
+  const handleProjectNavigation = () => {
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setActiveItem(link);
+    navigate("/projects");
+
+  }
+
+  function handleNavigation(link) {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setActiveItem(link);
+
+    if (link === 'Home') navigate("/");
+    else if (link === 'Service') navigate("/services");
+    else if (link === 'Projects') navigate("/projects");
+    else if (link === 'Contact') navigate("/contact");
+
+    setMenuOpen(false);
+    setAboutDropdownOpen(false);
+  }  
 
   return (
     <div className="h-screen min-h-[500px] relative">
@@ -79,8 +104,9 @@ function Sliders() {
                     </p>
 
                     {/* CTA Button */}
-                    <a
+                    <button
                       href="/projects"
+                      onClick={handleProjectNavigation}
                       className={cn(
                         "group inline-flex items-center gap-2",
                         "px-6 sm:px-8 py-3 sm:py-3.5 rounded-lg",
@@ -94,7 +120,7 @@ function Sliders() {
                     >
                       <span>Explore Our Work</span>
                       <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
