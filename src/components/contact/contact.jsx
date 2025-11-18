@@ -81,7 +81,7 @@ function Contact() {
             Contact Us
           </p>
           
-          <div className="animate-in slide-in-from-bottom duration-700">
+          <div className="animate-in slide-in-from-bottom text-white/90 duration-700">
             <TypeWritter 
               sxProp={{
                 fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem', lg: '3rem' },

@@ -65,8 +65,8 @@ function ServiceCard({ service, index, isImageRight = false }) {
             src={service.src}
             alt={service.title}
             className={cn(
-              "w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[320px] xl:h-[360px]",
-              "object-cover",
+              "w-full h-[150px] sm:h-[200px] md:h-[230px] lg:h-[260px] xl:h-[280px]",
+              "object-fit",
               "transition-all duration-700 ease-out",
               "group-hover:scale-105 group-hover:brightness-110"
             )}
@@ -107,13 +107,13 @@ function ServiceCard({ service, index, isImageRight = false }) {
         >
           {/* Title with animated underline */}
           <div className="relative inline-block mb-4 sm:mb-6">
-            <h2 className={cn(
-              "font-heading font-bold text-text-primary",
-              "text-2xl sm:text-3xl md:text-4xl",
-              "relative z-10"
-            )}>
-              {service.title}
-            </h2>
+          <h2 className={cn(
+            "font-heading font-bold text-text-primary",
+            "text-xl sm:text-2xl md:text-3xl",
+            "relative z-10"
+          )}>
+            {service.title}
+          </h2>
             <div className={cn(
               "absolute bottom-0 left-0 h-3 bg-primary/20 rounded-full",
               "transition-all duration-700 ease-out",
@@ -126,7 +126,7 @@ function ServiceCard({ service, index, isImageRight = false }) {
           {/* Heading */}
           <h3 className={cn(
             "font-semibold text-text-primary mb-4 sm:mb-6",
-            "text-lg sm:text-xl md:text-2xl",
+            "text-base sm:text-lg md:text-xl",
             "leading-relaxed"
           )}>
             {service.heading}
@@ -141,7 +141,7 @@ function ServiceCard({ service, index, isImageRight = false }) {
               )} />
               <p className={cn(
                 "text-text-secondary text-justify leading-relaxed",
-                "text-base sm:text-lg md:text-xl",
+                "text-sm sm:text-base md:text-lg",
                 "group-hover:text-text-primary transition-colors duration-300"
               )}>
                 {service.detail1}
@@ -155,7 +155,7 @@ function ServiceCard({ service, index, isImageRight = false }) {
               )} />
               <p className={cn(
                 "text-text-secondary text-justify leading-relaxed",
-                "text-base sm:text-lg md:text-xl",
+                "text-sm sm:text-base md:text-lg",
                 "group-hover:text-text-primary transition-colors duration-300"
               )}>
                 {service.detail2}

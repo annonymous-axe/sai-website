@@ -390,9 +390,9 @@ const itemData = [
     category: "High Rise",
   },
   {
-    img: "images/projects/HIGHRISE RESIDENTIAL/B Blossom, Surat/1.jpg",
+    img: "images/projects/HIGHRISE RESIDENTIAL/B Blossom, Surat/1.jpeg",
     path: '/images/projects/HIGHRISE RESIDENTIAL/B Blossom, Surat/',
-    imgs: ["1.jpg"],
+    imgs: ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg"],
     title: "B Blossom",
     location: "Surat",
     category: "High Rise",
@@ -494,7 +494,7 @@ const itemData = [
     category: "Institutional",
   },
   {
-    img: "images/projects/INSTITUTIONAL/Sainik School, Surat/1.jpg",
+    img: "images/projects/INSTITUTIONAL/Sainik School, Surat/1.png",
     path: '/images/projects/INSTITUTIONAL/Sainik School, Surat/',
     imgs: ["1.png", "2.jpg"],
     title: "Sainik School",
@@ -517,6 +517,14 @@ const itemData = [
     location: "Palsana",
     category: "Town Ship",
   },
+  {
+    img: "images/projects/TOWNSHIP/Avadh Lake City, Bardoli/1.webp",
+    path: '/images/projects/TOWNSHIP/Avadh Lake City, Bardoli/',
+    imgs: ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp", "6.webp", "7.webp"],
+    title: "Avadh Lake City",
+    location: "Bardoli",
+    category: "Town Ship",
+  },  
   {
     img: "images/projects/TOWNSHIP/Avadh lake Palace, Bardoli/1.webp",
     path: '/images/projects/TOWNSHIP/Avadh lake Palace, Bardoli/',
