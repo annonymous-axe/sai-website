@@ -249,7 +249,7 @@ const itemData = [
     img: "images/projects/BUNGALOWS/Hemant Bhai Hoijiwala, Surat/1.jpg",
     path: '/images/projects/BUNGALOWS/Hemant Bhai Hoijiwala, Surat/',
     imgs: ["1.jpg", "2.jpg", "3.jpg"],
-    title: "Hemant Bhai Hoijiwala",
+    title: "Hemant Bhai Hoijiwala Residence",
     location: "Surat",
     category: "Bunglow",
   },
