@@ -25,7 +25,7 @@ function AboutFounder() {
         />
 
         {/* Title */}
-        <h1 className="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-white text-center px-4 tracking-wide text-shadow-lg">
+        <h1 className="relative z-10 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-heading text-white text-center px-4 tracking-wide text-shadow-lg">
           About the Founder
         </h1>
       </div>

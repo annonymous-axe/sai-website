@@ -1,5 +1,5 @@
 import { useRef, useEffect } from 'react';
-import WhyUS from '/why-us-wbg.png';
+import WhyUS from '/idae_for_success.jpg';
 import OFFICE_GATE from '/OFFICE_GATE_wsky-wb.png';
 import { motion, useInView, useScroll } from 'framer-motion';
 
@@ -52,7 +52,7 @@ function AboutCompany() {
         />
 
         {/* Title */}
-        <h1 className="relative z-10 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-white text-center px-4 tracking-wide text-shadow-lg">
+        <h1 className="relative z-10 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-heading text-white text-center px-4 tracking-wide text-shadow-lg">
           About Company
         </h1>
       </div>
