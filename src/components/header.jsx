@@ -5,7 +5,7 @@ import { cn } from "../lib/utils";
 // import saiLogo from '/Sai Consultants - Logo-cropped.svg';
 import saiLogo from '/new_logo-cropped.svg';
 
-const navItems = ["Home", "About", "Projects", "Service", "Contact"];
+const navItems = ["Home", "About", "Projects", "Services", "Contact"];
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,7 +33,7 @@ const Header = () => {
     setActiveItem(link);
 
     if (link === 'Home') navigate("/");
-    else if (link === 'Service') navigate("/services");
+    else if (link === 'Services') navigate("/services");
     else if (link === 'Projects') navigate("/projects");
     else if (link === 'Contact') navigate("/contact");
 
