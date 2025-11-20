@@ -142,7 +142,7 @@ function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-text-primary mb-1 text-base sm:text-lg">Email Us</h3>
-                    <p className="text-text-secondary text-sm sm:text-base">contact@saiconsultants.com</p>
+                    <p className="text-text-secondary text-sm sm:text-base">admin@sai-consultants.com</p>
                   </div>
                 </div>
               </div>
@@ -170,7 +170,7 @@ function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-text-primary mb-1 text-base sm:text-lg">Call Us</h3>
-                    <p className="text-text-secondary text-sm sm:text-base">+91 123 456 7890</p>
+                    <p className="text-text-secondary text-sm sm:text-base">+91 98791 09464</p>
                   </div>
                 </div>
               </div>
@@ -198,7 +198,7 @@ function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-text-primary mb-1 text-base sm:text-lg">Visit Us</h3>
-                    <p className="text-text-secondary text-sm sm:text-base">Surat, Gujarat, India</p>
+                    <p className="text-text-secondary text-sm sm:text-base">20- Ishwarkunj Society, Opp. SMC Sports Complex, Anandmahal road, Adajan, Surat -395009</p>
                   </div>
                 </div>
               </div>
@@ -212,7 +212,7 @@ function Contact() {
           >
             <div 
               className={cn(
-                "p-6 sm:p-8 md:p-10 rounded-3xl",
+                "p-6 sm:p-8 md:p-10 md:pb-12 rounded-3xl",
                 "bg-white/90 backdrop-blur-glass shadow-glass-lg",
                 "border border-primary-100/50",
                 "transition-all duration-700",
@@ -365,11 +365,11 @@ function Contact() {
               </div>
 
               {/* Submit Button */}
-              <div className="flex justify-center sm:justify-start">
+              <div className="flex justify-center sm:justify-end">
                 <button
                   onClick={handleSubmit}
                   className={cn(
-                    "group relative px-8 sm:px-10 py-3 sm:py-4 rounded-xl",
+                    "group relative px-8 sm:px-10 py-3 sm:py-4 md:mt-8 rounded-xl",
                     "bg-gradient-to-r from-primary to-primary-600",
                     "text-white font-semibold text-sm sm:text-base",
                     "shadow-lg hover:shadow-glass-lg",

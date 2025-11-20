@@ -40,13 +40,13 @@ function ServiceCard({ service, index, isImageRight = false }) {
       {/* Image Section */}
       <div
         className={cn(
-          "lg:col-span-5 order-2 lg:order-1",
+          "lg:col-span-5 order-2 lg:order-1 flex items-center lg:items-end",
           isImageRight && "lg:order-2"
         )}
       >
         <div
           className={cn(
-            "group relative overflow-hidden rounded-2xl shadow-card hover:shadow-glass-lg",
+            "group relative overflow-hidden rounded-2xl shadow-card hover:shadow-glass-lg w-full",
             "transition-all duration-700 ease-out",
             "bg-white/50 backdrop-blur-sm border border-primary-100/30",
             isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
@@ -217,17 +217,17 @@ function ServicePage() {
 
   return (
     <div className="mb-12 sm:mb-16 md:mb-24 bg-bg-main">
-      {/* Progress Bar */}
+      {/* Progress Bar - Attached to Header */}
       <div 
         className={cn(
           "fixed left-0 right-0 z-50 bg-gradient-to-r from-primary via-primary-600 to-primary",
-          "h-1.5 md:h-2.5 shadow-lg",
-          "top-[80px] md:top-[100px]"
+          "h-1 md:h-1.5 shadow-md",
+          scrollProgress > 0 ? "top-[52px] sm:top-[60px] md:top-[68px]" : "top-[56px] sm:top-[64px] md:top-[72px]"
         )}
         style={{
           width: `${scrollProgress}%`,
           transformOrigin: '0%',
-          transition: 'width 0.1s ease-out'
+          transition: 'width 0.1s ease-out, top 0.5s ease-out'
         }}
       >
         <div className="absolute right-0 top-0 w-8 h-full bg-gradient-to-l from-accent to-transparent" />
